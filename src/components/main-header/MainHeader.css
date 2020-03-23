@@ -1,0 +1,24 @@
+.headerbox {
+    height: 8vh;
+    width: 100%;
+    background-color: mediumpurple;
+
+}
+
+img {
+    width: 10vh;
+    border-radius: 10px;
+    margin: 10px
+}
+
+.headerTitle {}
+
+.headerLetters {
+    color: #eae7ff;
+    line-height: 5vh;
+    margin: 10px
+}
+
+.logoutBtn{
+    margin: 1.8vh;
+}

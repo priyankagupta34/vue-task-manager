@@ -1,0 +1,57 @@
+.headerBox {
+    height: 45vh;
+    background: mediumpurple;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.logoStyle {
+    color: white;
+}
+
+.headerTitle {
+    color: white;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.headerLetters {
+    margin-left: 10px;
+    color: #eae7ff;
+}
+
+.headerLetters:after {
+    display: block;
+    height: 2px;
+    width: 13vw;
+    background: #e0dcff;
+    content: '';
+}
+
+.flex {
+    display: flex;
+}
+
+img {
+    width: 10vh;
+    border-radius: 10px;
+    /* border-bottom-right-radius: 0; */
+}
+
+.signbtn {
+    margin: 20px;
+    z-index: 2;
+}
+
+.mainpara {
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 23px;
+    word-spacing: 2px;
+}
+
+.mainpara div{
+    color: #e9e5f1;
+}

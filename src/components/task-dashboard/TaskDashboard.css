@@ -1,0 +1,49 @@
+p{
+    padding: 41px;
+    color: #800080d9;
+    line-height: 3vh;
+    letter-spacing: .5px;
+    border: 1px solid mediumpurple;
+    margin: 20px;
+    box-shadow: 0 0 20px #9370dba1;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    margin-top: 0;
+    z-index: 2;
+}
+
+.taskBox{
+    margin: 20px;
+    border: 1px solid mediumpurple;
+    box-shadow: 0 0 20px #9370dba1;
+    border-radius: 20px;
+    height: 75vh;
+    width: 47vw;
+    height: 78vh;
+    width: 48vw;
+    margin-top: 0;
+    padding: 50px;
+}
+
+.pendingTaskContainer{
+    height: 52vh;
+    overflow-y: auto;
+    padding: 0 8px 8px 4px;
+    overflow-x: hidden;
+}
+
+.noDataPresent{
+    margin-top: 28vh;
+    margin-left: 15vw;
+    color: mediumpurple;
+}
+
+.noPendingTask{
+    margin-top: 21vh;
+}
+
+.taskCompleteOrDelete .v-item-group {
+    height: 55vh;
+    overflow-y: auto;
+}

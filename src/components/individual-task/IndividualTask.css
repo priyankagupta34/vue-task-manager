@@ -1,0 +1,119 @@
+.individual{
+    width: 92.5vw;
+    height: 78vh;
+    box-shadow: 0 0 9px 0px mediumpurple;
+    margin: 7vh;
+    padding: 4vh;
+}
+
+.sectionA{
+    width: 156%;
+    border-right: 1px solid #e6c6e6;
+    height: 55vh;
+}
+
+.sectionB{
+    width: 30%;
+    margin-left: 5vh;
+    background: #c2a9f561;
+    border-left: 1px solid mediumpurple;
+}
+
+.taskText{
+    height: 46vh;
+    width: 97%;
+    border: 1px solid rgb(224, 142, 224);
+    color: purple;
+    padding: 2vh;
+    border-radius: 5px;
+    font-size: 0.82rem;
+    line-height: 21px;
+    letter-spacing: 0.61px;
+    word-spacing: 6px;
+    outline: none;
+}
+
+.listSpecific {
+    color: purple;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+    font-size: 0.89em;
+    box-shadow: 0 0 7px transparent;
+    padding: 0.5vh;
+    margin: 1vh;
+    /* transition: all .5s; */
+    cursor: pointer;
+    height: 3.5vh;
+    list-style-type: none;
+}
+
+.listSpecific:hover {
+    /* box-shadow: 0 0 7px #bdace2; */
+    /* transition: all .5s; */
+    /* border-radius: 3px; */
+    /* border-bottom: 2px solid rgb(189, 162, 245); */
+}
+
+.listSpecific:hover::after{
+    /* content: '+';
+    height: 8px;
+    border: 1px solid #bdace2;
+    display: block;
+    position: relative;
+    top: -1.5vh;
+    cursor: pointer;
+    left: -1vh; */
+
+}
+
+.addBox{
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgb(210, 195, 241);;
+    color: rgb(247, 159, 235);
+    content: '+';
+    top: -3.4vh;
+    left: -2.5vh;
+    position: relative;
+    line-height: 1.7vh;
+    padding-left: 0.31vh;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.addBox:hover{
+    border: 2px solid mediumpurple;
+    color: purple;
+    transition: all 0.2s;
+}
+
+.enterNewTask{
+    width: 100%;
+    border: 1px solid mediumpurple;
+    border-left: 1px solid white ;
+}
+
+.selectedSubTask{
+    border: 1px solid mediumpurple;
+    border-left: 1px solid transparent;
+    height: 6vh;
+    background: white;
+    position: relative;
+    left: -1px;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.removeBtn{
+    font-size: smaller;
+    color: lightsalmon;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.removeBtn:hover{
+    transition: all 0.3s;
+    background: aliceblue;
+}

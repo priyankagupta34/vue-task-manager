@@ -1,0 +1,18 @@
+.taskrow {
+    height: 7vh;
+    /* border: 1px solid #c7b7e8; */
+    border-radius: 5px;
+    padding: 1.5vh;
+    box-shadow: 0 0 6px #c2b6da;
+    /* width: 41vw; */
+    margin-top: 10px;
+}
+
+.taskName{
+    line-height: 4vh;
+    color: rgba(128, 0, 128, 0.911);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 29vw;
+    white-space: nowrap;
+}
